@@ -5,7 +5,8 @@
   "scripts": {
     "build:css": "sass ./src/styles/main.scss ./src/styles/main.css --no-source-map",
     "build:html": "mkdir -p ./dist && cp ./src/pages/index.html ./dist/index.html",
-    "build": "npm run build:css && tailwindcss -i ./src/styles/main.css -o ./dist/output.css && npm run build:html",
+    "build:assets": "mkdir -p ./dist/assets && cp -R ./src/assets ./dist/",
+    "build": "npm run build:css && tailwindcss -i ./src/styles/main.css -o ./dist/output.css && npm run build:html && npm run build:assets",
     "watch:css": "sass --watch ./src/styles/main.scss ./src/styles/main.css --no-source-map",
     "watch:tw": "tailwindcss -i ./src/styles/main.css -o ./dist/output.css --watch"
   },
