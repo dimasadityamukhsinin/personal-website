@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dimas Aditya Mukhsinin | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body class="relative min-h-screen overflow-x-hidden bg-background text-foreground">
+    <div class="pointer-events-none absolute inset-0 -z-10 overflow-hidden">
+      <div class="absolute inset-0 grid-fade opacity-40"></div>
+      <div
+        class="absolute -top-40 -left-32 h-[420px] w-[420px] rounded-full bg-[radial-gradient(circle,_hsl(var(--accent)/0.35)_0%,_transparent_70%)] blur-3xl"
+      ></div>
+      <div
+        class="absolute -bottom-52 right-[-10%] h-[480px] w-[480px] rounded-full bg-[radial-gradient(circle,_hsl(var(--primary)/0.12)_0%,_transparent_70%)] blur-3xl"
+      ></div>
+    </div>
+
+    <header class="mx-auto flex w-full max-w-6xl items-center justify-between px-6 py-8">
+      <nav class="hidden items-center gap-8 text-sm text-muted-foreground md:flex">
+        <a class="transition hover:text-foreground" href="#work">Work</a>
+        <a class="transition hover:text-foreground" href="#experience">Experience</a>
+        <a class="transition hover:text-foreground" href="#stack">Tech Stack</a>
+        <a class="transition hover:text-foreground" href="#contact">Contact</a>
+      </nav>
+      <a class="btn-secondary" href="#contact">Book a call</a>
+    </header>
+
+    <main class="mx-auto w-full max-w-6xl px-6 pb-20">
+      <section
+        class="grid items-center gap-10 pt-10 lg:grid-cols-[1.15fr_0.85fr] animate-[fade-up_0.8s_ease-out]"
+      >
+        <div class="space-y-6">
+          <h1 class="text-4xl font-semibold leading-tight md:text-6xl">
+            Hi, I'm Dimas Aditya Mukhsinin
+          </h1>
+          <p class="text-base text-muted-foreground md:text-lg">
+            I help startups and founders build fast, reliable websites and
+            product interfaces. Clean code and smooth front-end delivery.
+          </p>
+          <div class="flex flex-wrap gap-4">
+            <a class="btn-primary" href="#work">View selected work</a>
+            <a class="btn-ghost" href="#contact">Get in touch</a>
+          </div>
+          <div class="flex flex-wrap gap-4 text-sm text-muted-foreground">
+            <div class="surface flex items-center gap-3 px-4 py-2">
+              <span class="text-lg font-semibold text-foreground">5+</span>
+              <span>Years building websites</span>
+            </div>
+            <div class="surface flex items-center gap-3 px-4 py-2">
+              <span class="text-lg font-semibold text-foreground">9</span>
+              <span>Projects shipped</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="space-y-6">
+          <div class="surface p-6">
+            <div class="flex items-center justify-between">
+              <p class="text-sm text-muted-foreground">Based in</p>
+              <span class="chip">Indonesia</span>
+            </div>
+            <div class="relative w-full aspect-square rounded-md overflow-hidden mt-5">
+              <img src="/src/assets/images/photo.png" />
+            </div>
+          </div>
+          <div class="surface p-6">
+            <p class="text-sm text-muted-foreground">Latest project</p>
+            <div class="mt-4 flex items-center gap-4">
+              <div>
+                <p class="text-sm font-semibold">Saga</p>
+                <p class="text-xs text-muted-foreground">
+                  Ballet-inspired fashion brand with sustainable, premium pieces.
+                </p>
+              </div>
+            </div>
+            <a
+              class="mt-4 inline-flex items-center text-sm font-semibold"
+              href="https://danceinsaga.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Visit website
+              <span class="ml-2">→</span></a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section id="work" class="pt-20 space-y-8">
+        <div class="flex items-end justify-between gap-6">
+          <div>
+            <p class="text-sm uppercase tracking-[0.3em] text-muted-foreground">
+              Selected Work
+            </p>
+            <h2 class="mt-3 text-3xl font-semibold">Projects with focus and polish.</h2>
+          </div>
+          <!-- <a class="btn-ghost hidden md:inline-flex" href="#contact">Request full deck</a> -->
+        </div>
+        <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          <a
+            class="surface block p-6 transition hover:-translate-y-1 hover:border-border/80 hover:bg-card"
+            href="https://locavorenxt.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <p class="text-xs uppercase tracking-[0.2em] text-muted-foreground">Web Development</p>
+            <h3 class="mt-4 text-xl font-semibold">Locavore</h3>
+            <p class="mt-2 text-sm text-muted-foreground">
+              Website for a revolutionary Ubud restaurant with hyper-local,
+              zero-waste, Indonesian-rooted fine dining.
+            </p>
+          </a>
+          <a
+            class="surface block p-6 transition hover:-translate-y-1 hover:border-border/80 hover:bg-card"
+            href="https://www.kthengono.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <p class="text-xs uppercase tracking-[0.2em] text-muted-foreground">Web Development</p>
+            <h3 class="mt-4 text-xl font-semibold">Kelvin Thengono</h3>
+            <p class="mt-2 text-sm text-muted-foreground">
+              Website for an architecture and interior studio connecting spaces
+              to context and clear design narratives.
+            </p>
+          </a>
+          <a
+            class="surface block p-6 transition hover:-translate-y-1 hover:border-border/80 hover:bg-card"
+            href="https://otherlands.id/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <p class="text-xs uppercase tracking-[0.2em] text-muted-foreground">Web Development</p>
+            <h3 class="mt-4 text-xl font-semibold">Otherlands</h3>
+            <p class="mt-2 text-sm text-muted-foreground">
+              Creative studio site spanning creative development, production,
+              and talent management for bold visual narratives.
+            </p>
+          </a>
+          <a
+            class="surface block p-6 transition hover:-translate-y-1 hover:border-border/80 hover:bg-card"
+            href="https://www.weareserial.co/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <p class="text-xs uppercase tracking-[0.2em] text-muted-foreground">Web Development</p>
+            <h3 class="mt-4 text-xl font-semibold">Serial</h3>
+            <p class="mt-2 text-sm text-muted-foreground">
+              Lifestyle goods site highlighting curated global brands and
+              functional, everyday design.
+            </p>
+          </a>
+          <a
+            class="surface block p-6 transition hover:-translate-y-1 hover:border-border/80 hover:bg-card"
+            href="https://morin.id/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <p class="text-xs uppercase tracking-[0.2em] text-muted-foreground">Web Development</p>
+            <h3 class="mt-4 text-xl font-semibold">Morin</h3>
+            <p class="mt-2 text-sm text-muted-foreground">
+              Jam brand website spotlighting fresh ingredients and a practical,
+              on-the-go lifestyle.
+            </p>
+          </a>
+          <a
+            class="surface block p-6 transition hover:-translate-y-1 hover:border-border/80 hover:bg-card"
+            href="https://iha.kemenbud.go.id/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <p class="text-xs uppercase tracking-[0.2em] text-muted-foreground">Web Development</p>
+            <h3 class="mt-4 text-xl font-semibold">Indonesian Heritage Agency</h3>
+            <p class="mt-2 text-sm text-muted-foreground">
+              Government agency site managing 19 museums, 34 heritage sites, and
+              cultural education programs.
+            </p>
+          </a>
+          <a
+            class="surface block p-6 transition hover:-translate-y-1 hover:border-border/80 hover:bg-card"
+            href="https://museummacan.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <p class="text-xs uppercase tracking-[0.2em] text-muted-foreground">
+              Web Development · Maintenance
+            </p>
+            <h3 class="mt-4 text-xl font-semibold">Museum Macan</h3>
+            <p class="mt-2 text-sm text-muted-foreground">
+              Modern-contemporary art museum site with public access to global
+              collections, exhibitions, and education.
+            </p>
+          </a>
+          <a
+            class="surface block p-6 transition hover:-translate-y-1 hover:border-border/80 hover:bg-card"
+            href="https://herbana.id/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <p class="text-xs uppercase tracking-[0.2em] text-muted-foreground">
+              Web Development · Maintenance
+            </p>
+            <h3 class="mt-4 text-xl font-semibold">Herbana</h3>
+            <p class="mt-2 text-sm text-muted-foreground">
+              Herbal wellness brand site blending local wisdom with modern
+              practices for simple healthy living.
+            </p>
+          </a>
+          <a
+            class="surface block p-6 transition hover:-translate-y-1 hover:border-border/80 hover:bg-card"
+            href="https://danceinsaga.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <p class="text-xs uppercase tracking-[0.2em] text-muted-foreground">Web Development</p>
+            <h3 class="mt-4 text-xl font-semibold">Saga</h3>
+            <p class="mt-2 text-sm text-muted-foreground">
+              Ballet-inspired fashion brand site with sustainable, premium
+              pieces made in Indonesia.
+            </p>
+          </a>
+        </div>
+      </section>
+
+      <section id="experience" class="pt-20">
+        <div class="surface p-8">
+          <div class="flex flex-wrap items-start justify-between gap-6">
+            <div>
+              <p class="text-sm uppercase tracking-[0.3em] text-muted-foreground">
+                Experience
+              </p>
+              <h2 class="mt-3 text-3xl font-semibold">Building for 5+ years.</h2>
+              <p class="mt-3 max-w-2xl text-sm text-muted-foreground">
+                Focused on building fast, reliable web experiences with clean
+                front-end code and thoughtful UI.
+              </p>
+            </div>
+            <a class="btn-secondary pointer-events-none" href="#">Download resume</a>
+          </div>
+          <div class="mt-8 grid gap-4">
+            <div class="surface-muted flex flex-wrap items-center justify-between px-5 py-4">
+              <div>
+                <p class="text-sm font-semibold">Developer</p>
+                <p class="text-xs text-muted-foreground">TOMO Studio</p>
+              </div>
+              <p class="text-xs text-muted-foreground">Mar 2023 — Now</p>
+            </div>
+            <div class="surface-muted flex flex-wrap items-center justify-between px-5 py-4">
+              <div>
+                <p class="text-sm font-semibold">Junior Developer</p>
+                <p class="text-xs text-muted-foreground">TOMO Studio</p>
+              </div>
+              <p class="text-xs text-muted-foreground">Jan 2021 — Feb 2023</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="stack" class="pt-20">
+        <div class="surface p-8">
+          <div class="flex flex-wrap items-start justify-between gap-6">
+            <div>
+              <p class="text-sm uppercase tracking-[0.3em] text-muted-foreground">
+                Tech Stack
+              </p>
+              <h2 class="mt-3 text-3xl font-semibold">Tools I build with daily.</h2>
+              <p class="mt-3 max-w-2xl text-sm text-muted-foreground">
+                Modern front-end stack focused on speed, clarity, and motion where
+                it adds real value.
+              </p>
+            </div>
+          </div>
+          <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            <div class="surface-muted flex items-center justify-between px-5 py-4">
+              <div>
+                <p class="text-sm font-semibold">Next.js</p>
+                <p class="text-xs text-muted-foreground">App router, SSR, ISR</p>
+              </div>
+              <span class="text-xs text-muted-foreground">01</span>
+            </div>
+            <div class="surface-muted flex items-center justify-between px-5 py-4">
+              <div>
+                <p class="text-sm font-semibold">Tailwind CSS</p>
+                <p class="text-xs text-muted-foreground">Utility-first UI</p>
+              </div>
+              <span class="text-xs text-muted-foreground">02</span>
+            </div>
+            <div class="surface-muted flex items-center justify-between px-5 py-4">
+              <div>
+                <p class="text-sm font-semibold">SASS</p>
+                <p class="text-xs text-muted-foreground">Scalable styling</p>
+              </div>
+              <span class="text-xs text-muted-foreground">03</span>
+            </div>
+            <div class="surface-muted flex items-center justify-between px-5 py-4">
+              <div>
+                <p class="text-sm font-semibold">Framer Motion</p>
+                <p class="text-xs text-muted-foreground">Micro-interactions</p>
+              </div>
+              <span class="text-xs text-muted-foreground">04</span>
+            </div>
+            <div class="surface-muted flex items-center justify-between px-5 py-4">
+              <div>
+                <p class="text-sm font-semibold">GSAP</p>
+                <p class="text-xs text-muted-foreground">Advanced animations</p>
+              </div>
+              <span class="text-xs text-muted-foreground">05</span>
+            </div>
+            <div class="surface-muted flex items-center justify-between px-5 py-4">
+              <div>
+                <p class="text-sm font-semibold">Sanity CMS</p>
+                <p class="text-xs text-muted-foreground">Content management</p>
+              </div>
+              <span class="text-xs text-muted-foreground">06</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="mt-20">
+        <div class="surface flex flex-col gap-8 p-8 lg:flex-row lg:items-center lg:justify-between">
+          <div>
+            <p class="text-sm uppercase tracking-[0.3em] text-muted-foreground">
+              Contact
+            </p>
+            <h2 class="mt-3 text-3xl font-semibold">Ready to build something great?</h2>
+            <p class="mt-3 text-sm text-muted-foreground">
+              Looking to hire a web developer? Send me a brief and I'll get back
+              to you soon.
+            </p>
+          </div>
+          <div class="flex flex-wrap gap-4">
+            <a class="btn-primary" href="mailto:dimasadityamukhsinin@gmail.com">dimasadityamukhsinin@gmail.com</a>
+            <a class="btn-ghost pointer-events-none" href="#">Download portfolio</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="mx-auto flex w-full max-w-6xl flex-wrap items-center justify-between gap-4 px-6 py-8 text-xs text-muted-foreground">
+      <p>© 2025 Dimas Aditya Mukhsinin. All rights reserved.</p>
+      <div class="flex items-center gap-6">
+        <a class="transition hover:text-foreground" href="https://www.linkedin.com/in/dimas-aditya-mukhsinin-ab323a19b">LinkedIn</a>
+      </div>
+    </footer>
+  </body>
+</html>
